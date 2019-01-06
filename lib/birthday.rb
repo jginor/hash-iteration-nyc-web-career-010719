@@ -1,5 +1,5 @@
 # birthday_kids = {
-#   "Timmy" => 9, 
+#   "Timmy" => {:age => 9}, 
 #   "Sarah" => 6, 
 #   "Amanda" => 27
 # }
@@ -10,5 +10,6 @@ def happy_birthday(birthday_kids)
   end
 end
 
+birthday_kids["Timmy"][:age]
 
 
